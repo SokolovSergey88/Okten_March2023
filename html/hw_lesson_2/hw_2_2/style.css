@@ -1,0 +1,27 @@
+
+.inner_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color: burlywood;
+    margin: 100px 0;
+}
+
+.inner_box__item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all ease .3s;
+}
+
+.inner_box__item:hover {
+    background-color: gray;
+    border-radius: 50%;
+    transition: all ease .3s;
+}
+
+/*2.Завдання на картинці*/
+

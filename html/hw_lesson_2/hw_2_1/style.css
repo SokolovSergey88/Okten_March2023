@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+.inner_box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.inner_box__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: sandybrown;
+    font-size: 30px;
+}
+.rubikPixels {
+    font-family: 'Rubik Pixels', cursive;
+}
+
+.sedgwickAveDisplay {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.dancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fjallaOne {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indieFlower {
+    font-family: 'Indie Flower', cursive;
+}
+
+/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Fjalla One', sans-serif;*/
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Rubik Pixels', cursive;*/
+/*font-family: 'Sedgwick Ave Display', cursive;*/
+
+/*1. Створи веб-сторінку за макетом: розмісти 5 блоків однакового розміру та будь якого кольору. Всередині кожного блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом ('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')*/
+
+=======
+body {
+  background: red;
+}
+>>>>>>> main
