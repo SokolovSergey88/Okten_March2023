@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .inner_box {
     display: flex;
     justify-content: space-around;
@@ -43,8 +43,4 @@
 
 /*1. Створи веб-сторінку за макетом: розмісти 5 блоків однакового розміру та будь якого кольору. Всередині кожного блоку додай назву шрифта, та застилізуй текст зазначеним шрифтом ('Rubik Pixels','Sedgwick Ave Display', 'Dancing Script',  'Fjalla One', 'Indie Flower')*/
 
-=======
-body {
-  background: red;
-}
->>>>>>> main
+
