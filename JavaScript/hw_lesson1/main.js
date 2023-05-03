@@ -12,8 +12,9 @@
     let Pi = 3.14;
     let floatNumber = 2.7;
     let number16 = 16;
-    let True = true;
-    let False = false;
+    let boolTrue = true;
+    let boolFalse = false;
+    
 
     console.log(hello);
     console.log(owu);
@@ -26,8 +27,8 @@
     console.log(Pi);
     console.log(floatNumber);
     console.log(number16);
-    console.log(True);
-    console.log(False);
+    console.log(boolTrue);
+    console.log(boolFalse);
 //
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
     const firstName = 'Sergiy';
@@ -51,6 +52,6 @@
 
     let firstName1 = prompt("Ваше ім'я", '');
     let middleName1 = prompt("Ваше ім'я по батькові", '');
-    let age = prompt("Скільки років", '');
+    let age = +prompt("Скільки років", '');
 
     console.log(firstName1 + ' ' + middleName1 + ' ' + age);
