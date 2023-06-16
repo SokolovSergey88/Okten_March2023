@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #3D6FB4;
+}
+.userBox>h1{
+    font-size: 25px;
+    color: #94ACD7FF;
+}
+.userBox>p{
+    text-align: center;
+    color: #3D6FB4;
+    font-size: 20px;
+}
+.userComments{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divComment{
+    flex-basis: 23%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 1px solid #3D6FB4;
+    border-radius: 10px;
+    padding: 5px;
+    background: #A2C4FFFF;
+    text-align: center;
+}

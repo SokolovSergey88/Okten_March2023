@@ -1,0 +1,61 @@
+
+body{
+    background: #0CCCE8FF;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #052b60;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.userBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.userBox>ul{
+    font-size: 20px;
+    color: #052b60;
+    margin-bottom: 20px;
+}
+.userBox>button{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #3D6FB4;
+    color: #3D6FB4;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.postBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.postBox>h3{
+    flex-basis: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3D6FB4;
+    justify-content: center;
+    height: 100px;
+}
+
+.postBox button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #3D6FB4;
+    color: #3D6FB4;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}

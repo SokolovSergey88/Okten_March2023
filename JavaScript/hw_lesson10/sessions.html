@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sessions</title>
+</head>
+<body>
+
+
+<a href="index.html">Main page</a>
+
+
+<script>
+
+    const sessions = JSON.parse(localStorage.getItem('sessions')) || [];
+
+    for (const session of sessions) {
+        let divBox = document.createElement('div');
+        let date = document.createElement('div');
+        date.innerText = `Сьгоднішня дата: ${session.date}`;
+        let time = document.createElement('div');
+        time.innerText = `Київський час: ${session.hours} ${session.minutes} ${session.seconds}`;
+        divBox.append(date, time);
+        document.body.append(divBox);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
